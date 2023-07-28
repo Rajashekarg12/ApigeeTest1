@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "orgConfig": {
+        "apiProducts": [
+      {
+        "name": "Created by config File",
+        "displayName": "by anyName.json file",
+        "description": "Test creation",
+        "apiResources": [
+			"/test21",
+            "/test22",
+],
+        "approvalType": "auto",
+       "attributes": [
+			{
+				"name": "access",
+				"value": "private"
+			}
+		],
+        "environments": [
+          "${{FDAPG_ENV}}"
+        ],
+        "proxies": [
+          "forecastweatherapi"
+        ],
+        "scopes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "orgConfig": {
+        "apiProducts": [
+      {
+        "name": "created by edge.json",
+        "displayName": "config as per edge.json",
+        "description": "Test Application",
+        "apiResources": [
+			"/test21",
+            "/test22",
+],
+        "approvalType": "auto",
+       "attributes": [
+			{
+				"name": "access",
+				"value": "private"
+			}
+		],
+        "environments": [
+          "test"
+        ],
+        "proxies": [
+          "forecastweatherapi"
+        ],
+        "scopes": []
+      }
+    ]
+  }
+}
